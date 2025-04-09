@@ -4,6 +4,7 @@ import Header from '../Header';
 import Footer from '../Footer';
 import Navsecond from '../Navsecond';
 import { UserContext } from './Contextshare';
+import { Link } from 'react-router-dom';
 
 
 function Home() {
@@ -96,7 +97,7 @@ function Home() {
               </div>
             </div>
           ))}
-          <a className='text-center mt-5' href="/users/viewallwatches"><i className="fa-solid fa-shop fa-2xl text-dark "></i></a>
+          <Link to={"/users/viewallwatches"} className='text-center mt-5'><i className="fa-solid fa-shop fa-2xl text-dark "></i></Link>
         </div>
   
   
