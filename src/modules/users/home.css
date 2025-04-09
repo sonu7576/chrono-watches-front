@@ -1,0 +1,31 @@
+.productcard{
+
+    height: 400px;
+    width: 250px;
+    cursor: pointer;
+
+    transition: height.2s ease-out;
+    transition: width.2s ease-out;
+
+   
+
+
+
+}
+
+.productcard:hover{
+
+    height: 390px;
+    width: 240px;
+    
+
+}
+
+.head{
+
+    color: #8b9199;
+}
+
+
+
+
