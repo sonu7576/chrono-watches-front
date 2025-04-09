@@ -107,7 +107,7 @@ function SingleWatch() {
             <div className='container-fluid '>
 
                 <div className='row d-flex justify-content-center m-5'>
-                    <div className="col-6 mt-5 p-3">
+                    <div className="col-md-6 mt-5 p-3">
 
                         <div className='text-center'>
 
@@ -117,7 +117,7 @@ function SingleWatch() {
 
 
                     </div>
-                    <div className="col-6 mt-5 p-3">
+                    <div className="col-md-6 mt-5 p-3">
 
 
                         <div className='text-center'>
@@ -134,8 +134,8 @@ function SingleWatch() {
                         </div>
 
                         <div className='d-flex justify-content-around'>
-                            <button className='border rounded' style={{ background: "black", width: "30%", height: "50px", color: "white" }} >Buy</button>
-                            <button className='border rounded' onClick={Tocart} style={{ background: "black", width: "30%", height: "50px", color: "white" }}>Cart</button>
+                            <button className='border rounded' style={{ background: "black", width: "100px", height: "50px", color: "white" }} >Buy</button>
+                            <button className='border rounded' onClick={Tocart} style={{ background: "black", width: "100px", height: "50px", color: "white" }}>Cart</button>
                         </div>
 
 
