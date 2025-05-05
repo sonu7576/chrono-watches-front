@@ -15,15 +15,15 @@ export const login= async(body, header)=>{
 
 // getall
 
-export const allwatches=async(search)=>{
-    return await commonApi("GET",`${BaseUrl}/get/all?search=${search}`,"")
+export const allwatches=async()=>{
+    return await commonApi("GET",`${BaseUrl}/watch/all`,"")
  }
 
 //  get a watch
 
 export const getAwatch=async(id)=>{
 
-    return await commonApi("GET",`${BaseUrl}/get/single/${id}`)
+    return await commonApi("GET",`${BaseUrl}/watch/single/${id}`)
 
 }
 
@@ -38,14 +38,14 @@ export const newWatch = async(body,header)=>{
 // edit
 
 export const editWatch =async(id,body,header)=>{
-    return await commonApi("PUT",`${BaseUrl}/edit/${id}`,body,header)
+    return await commonApi("PUT",`${BaseUrl}/watch/edit/${id}`,body,header)
 }
 
 
 // delete
 
 export const deleteWatch =async(id)=>{
-    return await commonApi("DELETE",`${BaseUrl}/remove/watch/${id}`)
+    return await commonApi("DELETE",`${BaseUrl}/watch/delete/${id}`)
 }
 
 
@@ -53,19 +53,19 @@ export const deleteWatch =async(id)=>{
 
 
 export const addTocart =async(body,header)=>{
-    return await commonApi("POST",`${BaseUrl}/add/tocart`,body,header)
+    return await commonApi("POST",`${BaseUrl}/cart/add`,body,header)
 }
 
 
 // view cart 
 
 export const viewCart = async()=>{
-    return await commonApi("GET",`${BaseUrl}/view/cart`)
+    return await commonApi("GET",`${BaseUrl}/cart/all`)
 }
 
 
 // remove cart
 
 export const removecart= async(id)=>{
-    return await commonApi("DELETE",`${BaseUrl}/remove/cart/${id}`)
+    return await commonApi("DELETE",`${BaseUrl}/cart/remove/${id}`)
 }

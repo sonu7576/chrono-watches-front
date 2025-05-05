@@ -76,7 +76,7 @@ function Home() {
               price: '₹ 4099 /-',
             },
             {
-              img: 'https://www.tissotwatches.com/media/catalog/product/T/1/T137.427.11.041.00_R.png',
+              img: 'https://assets.tissotwatches.com/transform/Extend/1ef9b8d4-d9af-4a09-9b89-c1a4a62da84e/T137-427-11-091-00_Shadow?io=transform:fit,width:800,height:800,gravity:center',
               name: 'TISSOT PRX AUTOMATIC WATCH',
               price: '₹ 5999 /-',
             },

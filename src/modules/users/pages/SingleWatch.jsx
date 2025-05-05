@@ -49,7 +49,7 @@ function SingleWatch() {
 
             console.log(res);
 
-            if (res.status === 200) {
+            if (res.status === 201) {
 
                 alert('added successfully')
                 

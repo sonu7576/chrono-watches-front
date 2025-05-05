@@ -37,7 +37,7 @@ function Register() {
 
                 console.log(response);
 
-                if (response.status === 200) {
+                if (response.status === 201) {
                     setuserData({
                         username: "",
                         email: "",
